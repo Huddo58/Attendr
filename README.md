@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/AttendrSingle.png" alt="Attendr" width="320">
+<img src="assets/AttendrSingle.png" alt="Attendr" width="300">
 
 # Attendr
 
@@ -11,22 +11,22 @@
 <br>
 
 [![Version](https://img.shields.io/badge/version-v1.0.1-0f2740?style=for-the-badge)](../../releases/latest)
-[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20%7C%20Server-0078D4?style=for-the-badge&logo=windows)](../../releases/latest)
-[![Free](https://img.shields.io/badge/FREE-up%20to%2030%20users-39b980?style=for-the-badge)](https://attendr.com.au)
+[![Windows](https://img.shields.io/badge/Windows-10%20%7C%2011%20%7C%20Server-0078D4?style=for-the-badge&logo=windows&logoColor=white)](../../releases/latest)
+[![Free](https://img.shields.io/badge/FREE-Up%20to%2030%20Users-39b980?style=for-the-badge)](https://attendr.com.au)
 [![Self Hosted](https://img.shields.io/badge/Self--Hosted-Your%20Infrastructure-0f2740?style=for-the-badge)](https://attendr.com.au)
 
 <br>
 
 [Website](https://attendr.com.au) •
 [Download](../../releases/latest) •
-[Documentation](https://attendr.com.au) •
+[Documentation](https://attendr.com.au/support.html) •
 [Support](https://attendr.com.au/support.html)
 
 </div>
 
 ---
 
-## Staff presence without the complexity
+# Staff presence without the complexity
 
 Attendr is a self-hosted staff presence and in/out board application designed to give teams a simple, real-time view of where their people are.
 
@@ -43,43 +43,72 @@ Attendr runs on your own Windows server or PC, keeping your workplace data under
 
 ---
 
-## Attendr is now free
+# Attendr is now free
 
-### Free forever for up to 30 active users
+## Free forever for up to 30 active users
 
 There is no trial countdown and no feature-restricted free edition.
 
 | | Free | Unlimited |
 |---|---:|---:|
 | Active users | Up to 30 | Unlimited |
-| Full platform | Yes | Yes |
+| Full platform access | Yes | Yes |
 | Subscription | None | None |
-| Expiry | None | None |
+| Licence expiry | None | None |
 | Price | **A$0** | **A$100 once** |
 
 A licence is only required when you need more than 30 active users.
 
 **One installation. One payment. No ongoing subscription.**
 
-[Learn more about licensing](https://attendr.com.au/pricing.html)
+[View Attendr pricing](https://attendr.com.au/pricing.html)
 
 ---
 
-## Dashboard
+# Dashboard
 
-<img width="1900" alt="Attendr Dashboard" src="https://github.com/user-attachments/assets/15bc6b7a-68b0-4b0d-a12e-9737f1658d45">
+<img src="assets/Dashboard.png" alt="Attendr Dashboard" width="100%">
 
-Attendr provides a clear, real-time presence board showing user status, location, expected return time, comments and last update information.
+The Attendr dashboard provides a clear, real-time view of staff presence across your organisation.
+
+See:
+
+- Current status
+- Current location
+- Expected return time
+- Comments
+- Last updated time
+- Department membership
+
+The board can be filtered by department, making it easy for teams to see the people relevant to them.
 
 ---
 
-## Features
+# Kiosk Mode
 
-### Real-time staff presence
+<img src="assets/Kiosk.png" alt="Attendr Kiosk Mode" width="100%">
 
-See the current status of your team from a single central dashboard.
+Attendr includes a dedicated kiosk interface designed for shared devices, reception areas and common spaces.
 
-### Custom statuses
+Staff can quickly update their status without needing to navigate the full application.
+
+Kiosk mode is ideal for:
+
+- Reception desks
+- Office entrances
+- Shared team areas
+- Touchscreen terminals
+- Wall-mounted displays
+
+---
+
+# Features
+
+## Real-time staff presence
+
+See the current status of your team from one central dashboard.
+
+## Custom statuses
 
 Create statuses that match the way your organisation works.
 
@@ -92,50 +121,51 @@ Examples include:
 - Annual Leave
 - Unavailable
 
-### Departments
+## Departments
 
-Organise users into departments and filter the presence board to show the people relevant to you.
+Organise users into departments such as:
 
-### Locations
+- Executive
+- Finance
+- Human Resources
+- Information Technology
+- Marketing
+- Operations
+- Sales
 
-Create multiple physical locations and associate users with them.
+Users can then filter the main presence board by department.
 
-Attendr can also use **IP-based location detection** to automatically identify where a user is working from.
+## Locations
 
-### Kiosk mode
+Create multiple workplace locations and associate staff with them.
 
-Deploy Attendr as a shared in/out board for receptions, offices, team areas or common spaces.
+Attendr also supports **IP-based location detection**, allowing a user's location to be determined automatically based on the network they are connected to.
 
-### Active Directory
+## User profiles
 
-Integrate Attendr with your existing Active Directory environment.
+Users can manage their own:
 
-### Microsoft Entra ID
+- Status
+- Location
+- Expected return
+- Comments
+- Profile information
 
-Attendr also supports Microsoft Entra ID integration for modern Microsoft environments.
+## Kiosk mode
 
-### User profiles
+Provide a shared interface for staff to quickly mark themselves in, out, remote or unavailable.
 
-Each user can maintain their current presence information and workplace status.
+## Active Directory integration
 
-### Administration
+Attendr can integrate with Active Directory environments for user synchronisation and authentication.
 
-Administrators can manage:
+## Microsoft Entra ID integration
 
-- Users
-- Departments
-- Locations
-- Statuses
-- Branding
-- Authentication
-- Integrations
-- Licensing
-- Audit logs
-- Application settings
+Attendr also supports Microsoft Entra ID for organisations using Microsoft cloud identity services.
 
-### Self-hosted
+## Self-hosted deployment
 
-Attendr runs entirely on your own infrastructure.
+Attendr runs on your infrastructure.
 
 Your server.
 
@@ -145,31 +175,118 @@ Your data.
 
 ---
 
-## Download
+# Administration
 
-The current Windows release is:
+Attendr includes a full administration interface for managing the platform.
 
-### Attendr v1.0.1
+## User Management
 
-[**Download the latest release**](../../releases/latest)
+<img src="assets/AdminUsers.png" alt="Attendr User Administration" width="100%">
 
-Attendr currently supports:
+Administrators can create, edit, deactivate and manage Attendr users.
 
-- Windows 10
-- Windows 11
-- Windows Server 2016 and newer
+User management includes control over:
 
-The required runtime components are bundled with the application.
+- User details
+- Departments
+- Locations
+- Roles
+- Authentication
+- Account status
 
 ---
 
-## Installation
+## Departments
 
-Attendr is designed to be simple to deploy.
+<img src="assets/AdminDepartments.png" alt="Attendr Department Administration" width="100%">
 
-1. Download `Attendr-v1.0.1-Windows.zip`
-2. Extract the ZIP archive
-3. Run:
+Create and manage departments to reflect your organisational structure.
+
+Departments can be used to group staff and filter the main presence board.
+
+---
+
+## Locations
+
+<img src="assets/AdminLocations.png" alt="Attendr Location Administration" width="100%">
+
+Locations can represent:
+
+- Offices
+- Buildings
+- Sites
+- Remote locations
+- Branches
+- Facilities
+
+Attendr can also associate network ranges with locations for automatic IP-based location detection.
+
+---
+
+## Status Management
+
+<img src="assets/AdminStatuses.png" alt="Attendr Status Administration" width="100%">
+
+Statuses can be customised to match your organisation.
+
+Administrators can define:
+
+- Status name
+- Display colour
+- Availability state
+- Behaviour
+- Return requirements
+
+### Status selection
+
+<img src="assets/AdminStatusPopup.png" alt="Attendr Status Selection" width="100%">
+
+Staff can quickly update their current availability using the status selector.
+
+---
+
+## Settings
+
+<img src="assets/AdminSettings.png" alt="Attendr Settings" width="100%">
+
+The Attendr settings interface provides central configuration for the application.
+
+Configuration includes areas such as:
+
+- General settings
+- Branding
+- Authentication
+- Integrations
+- Licensing
+- Status behaviour
+- Application configuration
+
+---
+
+## Audit Logs
+
+<img src="assets/AdminLogs.png" alt="Attendr Audit Logs" width="100%">
+
+Attendr includes audit logging to provide visibility into important administrative and user actions.
+
+Logs can assist with:
+
+- Troubleshooting
+- Change tracking
+- Administrative auditing
+- Operational visibility
+
+---
+
+# Automatic location detection
+
+Attendr can automatically determine a user's physical location based on their network address.
+
+Administrators can associate network ranges with Attendr locations.
+
+For example:
 
 ```text
-start.bat
+10.10.10.0/24    Head Office
+10.10.20.0/24    Warehouse
+10.20.10.0/24    Branch Office
