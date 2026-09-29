@@ -19,7 +19,7 @@
 
 [Website](https://attendr.com.au) •
 [Download](../../releases/latest) •
-[Documentation](https://attendr.com.au/support.html) •
+[Documentation](docs/Attendr-v1.0.1-Documentation.pdf) •
 [Support](https://attendr.com.au/support.html)
 
 </div>
